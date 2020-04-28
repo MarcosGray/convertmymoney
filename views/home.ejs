@@ -1,9 +1,11 @@
 <%- include('header') %>
 
-<form method="GET" action="/cotacao"  >
-    <input name="cotacao" placeholder="Cotação dolares" ><br>
-    <input name="quantidade" placeholder="Quantidade de dolares" ><br>
-    <button>Converter!</button>
-</form>
+<div class="corpo">
+    <form method="GET" action="/cotacao"  >
+        <input name="cotacao" placeholder="Cotação dolares" value="<%= cotacao %>" ><br>
+        <input name="quantidade" placeholder="Quantidade de dolares" ><br>
+        <button>Converter!</button>
+    </form>
+</div>
 
 <%- include('footer') %>

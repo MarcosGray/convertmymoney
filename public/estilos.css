@@ -21,8 +21,27 @@ button {
     margin: 6px;
 }
 
+.header {
+    height: 10%;
+}
+
 .result{
     padding: 20px;
     border: 1px solid #d8d8d8;
     background: #fdfdfd;
+    
+}
+
+.rodape{
+    padding: 3em;
+}
+
+.corpo{
+    height: 10em;
+}
+
+footer {
+    background: #037c54;
+    color: #d8d8d8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
