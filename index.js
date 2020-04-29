@@ -35,6 +35,6 @@ app.listen(3000, err => {
     if (err) {
         console.log('Erro ao iniciar o servidor.')
     } else {
-        console.log('Servidor inicicado com sucesso.')
+        console.log('Servidor iniciado com sucesso.')
     }
 })
